@@ -9,17 +9,17 @@ export default async function getHomepageData() {
         {
             slug: 'treding',
             title: 'Trending',
-            items: await httpClient.sendRequest(RequestMethod.GET, `/trending/all/week?api_key=${MOVIE_DB_API_KEY}`)   
+            items: await httpClient.sendRequest(RequestMethod.GET, `/trending/all/week?api_key=${MOVIE_DB_API_KEY}`)
         },
         {
             slug: 'top rated',
             title: 'Top Rated',
-            items: await httpClient.sendRequest(RequestMethod.GET, `/movie/top_rated?api_key=${MOVIE_DB_API_KEY}`)   
+            items: await httpClient.sendRequest(RequestMethod.GET, `/movie/top_rated?api_key=${MOVIE_DB_API_KEY}`)
         },
         {
             slug: 'action',
             title: 'Action',
-            items: await httpClient.sendRequest(RequestMethod.GET, `/discover/movie?with_genres=2?&api_key=${MOVIE_DB_API_KEY}`)   
+            items: await httpClient.sendRequest(RequestMethod.GET, `/discover/movie?with_genres=2?&api_key=${MOVIE_DB_API_KEY}`)
         }
     ]
 }

@@ -20,11 +20,11 @@ REACT_APP_MOVIE_DB_API_KEY=
 
 ```
 npm start
-``` 
+```
 
 
 ## Built With
 
 - [TypeScript](https://kotlinlang.org/) - Programming Language
-- [ReactJS](https://pt-br.reactjs.org/) - Javascript Library to Create User Interfaces 
+- [ReactJS](https://pt-br.reactjs.org/) - Javascript Library to Create User Interfaces
 - [VSCode](https://code.visualstudio.com/) - IDE
